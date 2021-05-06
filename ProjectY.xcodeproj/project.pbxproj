@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		300354807C1FC7FAEA0FAA5A /* Pods_ProjectY.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8656208752E3E1D5ED0B2E67 /* Pods_ProjectY.framework */; };
 		6A64A5622643CD8D00B34998 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A64A5612643CD8D00B34998 /* AppDelegate.swift */; };
 		6A64A5642643CD8D00B34998 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A64A5632643CD8D00B34998 /* SceneDelegate.swift */; };
 		6A64A5662643CD8D00B34998 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A64A5652643CD8D00B34998 /* ViewController.swift */; };
@@ -15,6 +16,31 @@
 		6A64A56E2643CD9100B34998 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A64A56C2643CD9100B34998 /* LaunchScreen.storyboard */; };
 		6A64A5792643CD9100B34998 /* ProjectYTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A64A5782643CD9100B34998 /* ProjectYTests.swift */; };
 		6A64A5842643CD9200B34998 /* ProjectYUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A64A5832643CD9200B34998 /* ProjectYUITests.swift */; };
+		6A64A5972643E54300B34998 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A64A5962643E54300B34998 /* HealthKit.framework */; };
+		6A6C85832644018D000C2F67 /* MOPRIMTmdSdk.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6C85822644018D000C2F67 /* MOPRIMTmdSdk.xcframework */; };
+		6A6C85842644018D000C2F67 /* MOPRIMTmdSdk.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6C85822644018D000C2F67 /* MOPRIMTmdSdk.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6A6C8589264401A7000C2F67 /* AWSAPIGateway.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6C8588264401A7000C2F67 /* AWSAPIGateway.xcframework */; };
+		6A6C858A264401A7000C2F67 /* AWSAPIGateway.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6C8588264401A7000C2F67 /* AWSAPIGateway.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6A6C858E264401B5000C2F67 /* AWSCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6C858D264401B5000C2F67 /* AWSCore.xcframework */; };
+		6A6C858F264401B5000C2F67 /* AWSCore.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6C858D264401B5000C2F67 /* AWSCore.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6A6C8593264401CF000C2F67 /* AWSMobileClientXCF.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6C8592264401CF000C2F67 /* AWSMobileClientXCF.xcframework */; };
+		6A6C8594264401CF000C2F67 /* AWSMobileClientXCF.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6C8592264401CF000C2F67 /* AWSMobileClientXCF.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6A6C8598264401DD000C2F67 /* AWSCognitoIdentityProviderASF.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6C8597264401DD000C2F67 /* AWSCognitoIdentityProviderASF.xcframework */; };
+		6A6C8599264401DD000C2F67 /* AWSCognitoIdentityProviderASF.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6C8597264401DD000C2F67 /* AWSCognitoIdentityProviderASF.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6A6C859D264401F5000C2F67 /* AWSCognitoIdentityProvider.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6C859C264401F5000C2F67 /* AWSCognitoIdentityProvider.xcframework */; };
+		6A6C859E264401F5000C2F67 /* AWSCognitoIdentityProvider.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6C859C264401F5000C2F67 /* AWSCognitoIdentityProvider.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6A6C85A226440227000C2F67 /* AWSAuthCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6C85A126440227000C2F67 /* AWSAuthCore.xcframework */; };
+		6A6C85A326440227000C2F67 /* AWSAuthCore.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6C85A126440227000C2F67 /* AWSAuthCore.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6A6C85A72644023C000C2F67 /* AWSS3.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6C85A62644023C000C2F67 /* AWSS3.xcframework */; };
+		6A6C85A82644023C000C2F67 /* AWSS3.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6C85A62644023C000C2F67 /* AWSS3.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6A6C85AF26440CD3000C2F67 /* RealmSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6C85AE26440CD3000C2F67 /* RealmSwift.xcframework */; };
+		6A6C85B026440CD3000C2F67 /* RealmSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6C85AE26440CD3000C2F67 /* RealmSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6A6C85B426440CD7000C2F67 /* Realm.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6C85B326440CD7000C2F67 /* Realm.xcframework */; };
+		6A6C85B526440CD7000C2F67 /* Realm.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6C85B326440CD7000C2F67 /* Realm.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6A6C85BF26440FA1000C2F67 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C85BE26440FA1000C2F67 /* SecondView.swift */; };
+		6A6C85C92644282B000C2F67 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A6C85C82644282B000C2F67 /* GoogleService-Info.plist */; };
+		8E0BA5774628967DEF7A0B31 /* Pods_ProjectYTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77207FC50509F2F248FF43C6 /* Pods_ProjectYTests.framework */; };
+		C8D3BFEF9109EC5D497B3EBE /* Pods_ProjectY_ProjectYUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519CEB13DFE16D8A601066E5 /* Pods_ProjectY_ProjectYUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +60,34 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6A6C85852644018D000C2F67 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6A6C8599264401DD000C2F67 /* AWSCognitoIdentityProviderASF.xcframework in Embed Frameworks */,
+				6A6C85B026440CD3000C2F67 /* RealmSwift.xcframework in Embed Frameworks */,
+				6A6C85A82644023C000C2F67 /* AWSS3.xcframework in Embed Frameworks */,
+				6A6C8594264401CF000C2F67 /* AWSMobileClientXCF.xcframework in Embed Frameworks */,
+				6A6C85A326440227000C2F67 /* AWSAuthCore.xcframework in Embed Frameworks */,
+				6A6C85842644018D000C2F67 /* MOPRIMTmdSdk.xcframework in Embed Frameworks */,
+				6A6C858A264401A7000C2F67 /* AWSAPIGateway.xcframework in Embed Frameworks */,
+				6A6C859E264401F5000C2F67 /* AWSCognitoIdentityProvider.xcframework in Embed Frameworks */,
+				6A6C858F264401B5000C2F67 /* AWSCore.xcframework in Embed Frameworks */,
+				6A6C85B526440CD7000C2F67 /* Realm.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2CE2DD632A7173176D5CDC98 /* Pods-ProjectYTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectYTests.debug.xcconfig"; path = "Target Support Files/Pods-ProjectYTests/Pods-ProjectYTests.debug.xcconfig"; sourceTree = "<group>"; };
+		474357455846E1AEBA26B131 /* Pods-ProjectY.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectY.debug.xcconfig"; path = "Target Support Files/Pods-ProjectY/Pods-ProjectY.debug.xcconfig"; sourceTree = "<group>"; };
+		519CEB13DFE16D8A601066E5 /* Pods_ProjectY_ProjectYUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectY_ProjectYUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61534043DBB36AF7F0ACA773 /* Pods-ProjectY.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectY.release.xcconfig"; path = "Target Support Files/Pods-ProjectY/Pods-ProjectY.release.xcconfig"; sourceTree = "<group>"; };
 		6A64A55E2643CD8D00B34998 /* ProjectY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A64A5612643CD8D00B34998 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A64A5632643CD8D00B34998 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +102,26 @@
 		6A64A57F2643CD9200B34998 /* ProjectYUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectYUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A64A5832643CD9200B34998 /* ProjectYUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectYUITests.swift; sourceTree = "<group>"; };
 		6A64A5852643CD9200B34998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A64A5942643E54200B34998 /* ProjectY.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProjectY.entitlements; sourceTree = "<group>"; };
+		6A64A5962643E54300B34998 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		6A6C85822644018D000C2F67 /* MOPRIMTmdSdk.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MOPRIMTmdSdk.xcframework; path = "../../Downloads/TMD SDK v0.5.3.1/MOPRIMTmdSdk.xcframework"; sourceTree = "<group>"; };
+		6A6C8588264401A7000C2F67 /* AWSAPIGateway.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AWSAPIGateway.xcframework; path = "../../Downloads/aws-ios-sdk-2.22.1/frameworks/AWSAPIGateway.xcframework"; sourceTree = "<group>"; };
+		6A6C858D264401B5000C2F67 /* AWSCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AWSCore.xcframework; path = "../../Downloads/aws-ios-sdk-2.22.1/frameworks/AWSCore.xcframework"; sourceTree = "<group>"; };
+		6A6C8592264401CF000C2F67 /* AWSMobileClientXCF.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AWSMobileClientXCF.xcframework; path = "../../Downloads/aws-ios-sdk-2.22.1/frameworks/AWSMobileClientXCF.xcframework"; sourceTree = "<group>"; };
+		6A6C8597264401DD000C2F67 /* AWSCognitoIdentityProviderASF.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AWSCognitoIdentityProviderASF.xcframework; path = "../../Downloads/aws-ios-sdk-2.22.1/frameworks/AWSCognitoIdentityProviderASF.xcframework"; sourceTree = "<group>"; };
+		6A6C859C264401F5000C2F67 /* AWSCognitoIdentityProvider.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AWSCognitoIdentityProvider.xcframework; path = "../../Downloads/aws-ios-sdk-2.22.1/frameworks/AWSCognitoIdentityProvider.xcframework"; sourceTree = "<group>"; };
+		6A6C85A126440227000C2F67 /* AWSAuthCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AWSAuthCore.xcframework; path = "../../Downloads/aws-ios-sdk-2.22.1/frameworks/AWSAuthCore.xcframework"; sourceTree = "<group>"; };
+		6A6C85A62644023C000C2F67 /* AWSS3.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AWSS3.xcframework; path = "../../Downloads/aws-ios-sdk-2.22.1/frameworks/AWSS3.xcframework"; sourceTree = "<group>"; };
+		6A6C85AD26440C9B000C2F67 /* realm-swift-10.5.1 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "realm-swift-10.5.1"; path = "../../Downloads/realm-swift-10.5.1"; sourceTree = "<group>"; };
+		6A6C85AE26440CD3000C2F67 /* RealmSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RealmSwift.xcframework; path = "../../Downloads/realm-swift-10.5.1/12.3/RealmSwift.xcframework"; sourceTree = "<group>"; };
+		6A6C85B326440CD7000C2F67 /* Realm.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Realm.xcframework; path = "../../Downloads/realm-swift-10.5.1/12.3/Realm.xcframework"; sourceTree = "<group>"; };
+		6A6C85BE26440FA1000C2F67 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		6A6C85C82644282B000C2F67 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		77207FC50509F2F248FF43C6 /* Pods_ProjectYTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectYTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E3CEB1F939BCF22AB76A8F1 /* Pods-ProjectYTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectYTests.release.xcconfig"; path = "Target Support Files/Pods-ProjectYTests/Pods-ProjectYTests.release.xcconfig"; sourceTree = "<group>"; };
+		8656208752E3E1D5ED0B2E67 /* Pods_ProjectY.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectY.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CCA0F6F3A839F6F1E006043 /* Pods-ProjectY-ProjectYUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectY-ProjectYUITests.debug.xcconfig"; path = "Target Support Files/Pods-ProjectY-ProjectYUITests/Pods-ProjectY-ProjectYUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D145DB6B73C39592747D83BF /* Pods-ProjectY-ProjectYUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectY-ProjectYUITests.release.xcconfig"; path = "Target Support Files/Pods-ProjectY-ProjectYUITests/Pods-ProjectY-ProjectYUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +129,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A6C85832644018D000C2F67 /* MOPRIMTmdSdk.xcframework in Frameworks */,
+				6A6C8593264401CF000C2F67 /* AWSMobileClientXCF.xcframework in Frameworks */,
+				6A64A5972643E54300B34998 /* HealthKit.framework in Frameworks */,
+				6A6C8598264401DD000C2F67 /* AWSCognitoIdentityProviderASF.xcframework in Frameworks */,
+				6A6C85A226440227000C2F67 /* AWSAuthCore.xcframework in Frameworks */,
+				6A6C858E264401B5000C2F67 /* AWSCore.xcframework in Frameworks */,
+				6A6C8589264401A7000C2F67 /* AWSAPIGateway.xcframework in Frameworks */,
+				6A6C85B426440CD7000C2F67 /* Realm.xcframework in Frameworks */,
+				6A6C85AF26440CD3000C2F67 /* RealmSwift.xcframework in Frameworks */,
+				6A6C85A72644023C000C2F67 /* AWSS3.xcframework in Frameworks */,
+				6A6C859D264401F5000C2F67 /* AWSCognitoIdentityProvider.xcframework in Frameworks */,
+				300354807C1FC7FAEA0FAA5A /* Pods_ProjectY.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E0BA5774628967DEF7A0B31 /* Pods_ProjectYTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +156,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8D3BFEF9109EC5D497B3EBE /* Pods_ProjectY_ProjectYUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +170,8 @@
 				6A64A5772643CD9100B34998 /* ProjectYTests */,
 				6A64A5822643CD9200B34998 /* ProjectYUITests */,
 				6A64A55F2643CD8D00B34998 /* Products */,
+				6A64A5952643E54300B34998 /* Frameworks */,
+				BB5F2847A7F4D579BA2D1E78 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +188,15 @@
 		6A64A5602643CD8D00B34998 /* ProjectY */ = {
 			isa = PBXGroup;
 			children = (
+				6A64A5942643E54200B34998 /* ProjectY.entitlements */,
 				6A64A5612643CD8D00B34998 /* AppDelegate.swift */,
 				6A64A5632643CD8D00B34998 /* SceneDelegate.swift */,
 				6A64A5652643CD8D00B34998 /* ViewController.swift */,
 				6A64A5672643CD8D00B34998 /* Main.storyboard */,
+				6A6C85BE26440FA1000C2F67 /* SecondView.swift */,
 				6A64A56A2643CD9100B34998 /* Assets.xcassets */,
 				6A64A56C2643CD9100B34998 /* LaunchScreen.storyboard */,
+				6A6C85C82644282B000C2F67 /* GoogleService-Info.plist */,
 				6A64A56F2643CD9100B34998 /* Info.plist */,
 			);
 			path = ProjectY;
@@ -128,6 +220,42 @@
 			path = ProjectYUITests;
 			sourceTree = "<group>";
 		};
+		6A64A5952643E54300B34998 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A6C85AE26440CD3000C2F67 /* RealmSwift.xcframework */,
+				6A6C85AD26440C9B000C2F67 /* realm-swift-10.5.1 */,
+				6A6C85A62644023C000C2F67 /* AWSS3.xcframework */,
+				6A6C85A126440227000C2F67 /* AWSAuthCore.xcframework */,
+				6A6C859C264401F5000C2F67 /* AWSCognitoIdentityProvider.xcframework */,
+				6A6C8597264401DD000C2F67 /* AWSCognitoIdentityProviderASF.xcframework */,
+				6A6C8592264401CF000C2F67 /* AWSMobileClientXCF.xcframework */,
+				6A6C858D264401B5000C2F67 /* AWSCore.xcframework */,
+				6A6C8588264401A7000C2F67 /* AWSAPIGateway.xcframework */,
+				6A6C85B326440CD7000C2F67 /* Realm.xcframework */,
+				6A6C85822644018D000C2F67 /* MOPRIMTmdSdk.xcframework */,
+				6A64A5962643E54300B34998 /* HealthKit.framework */,
+				8656208752E3E1D5ED0B2E67 /* Pods_ProjectY.framework */,
+				519CEB13DFE16D8A601066E5 /* Pods_ProjectY_ProjectYUITests.framework */,
+				77207FC50509F2F248FF43C6 /* Pods_ProjectYTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB5F2847A7F4D579BA2D1E78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				474357455846E1AEBA26B131 /* Pods-ProjectY.debug.xcconfig */,
+				61534043DBB36AF7F0ACA773 /* Pods-ProjectY.release.xcconfig */,
+				9CCA0F6F3A839F6F1E006043 /* Pods-ProjectY-ProjectYUITests.debug.xcconfig */,
+				D145DB6B73C39592747D83BF /* Pods-ProjectY-ProjectYUITests.release.xcconfig */,
+				2CE2DD632A7173176D5CDC98 /* Pods-ProjectYTests.debug.xcconfig */,
+				7E3CEB1F939BCF22AB76A8F1 /* Pods-ProjectYTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +263,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A64A5882643CD9200B34998 /* Build configuration list for PBXNativeTarget "ProjectY" */;
 			buildPhases = (
+				A3395CFA12AC66D9D25C8A6A /* [CP] Check Pods Manifest.lock */,
 				6A64A55A2643CD8D00B34998 /* Sources */,
 				6A64A55B2643CD8D00B34998 /* Frameworks */,
 				6A64A55C2643CD8D00B34998 /* Resources */,
+				6A6C85852644018D000C2F67 /* Embed Frameworks */,
+				DD556E39DBA6C64F32E07836 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +283,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A64A58B2643CD9200B34998 /* Build configuration list for PBXNativeTarget "ProjectYTests" */;
 			buildPhases = (
+				E5A9BA1ECEAA508BF6EE391E /* [CP] Check Pods Manifest.lock */,
 				6A64A5702643CD9100B34998 /* Sources */,
 				6A64A5712643CD9100B34998 /* Frameworks */,
 				6A64A5722643CD9100B34998 /* Resources */,
@@ -170,9 +302,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A64A58E2643CD9200B34998 /* Build configuration list for PBXNativeTarget "ProjectYUITests" */;
 			buildPhases = (
+				BCB6A703D61939F92B1883F2 /* [CP] Check Pods Manifest.lock */,
 				6A64A57B2643CD9200B34998 /* Sources */,
 				6A64A57C2643CD9200B34998 /* Frameworks */,
 				6A64A57D2643CD9200B34998 /* Resources */,
+				81E43B41B8698219B171981B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +368,7 @@
 				6A64A56E2643CD9100B34998 /* LaunchScreen.storyboard in Resources */,
 				6A64A56B2643CD9100B34998 /* Assets.xcassets in Resources */,
 				6A64A5692643CD8D00B34998 /* Main.storyboard in Resources */,
+				6A6C85C92644282B000C2F67 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +388,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		81E43B41B8698219B171981B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProjectY-ProjectYUITests/Pods-ProjectY-ProjectYUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProjectY-ProjectYUITests/Pods-ProjectY-ProjectYUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProjectY-ProjectYUITests/Pods-ProjectY-ProjectYUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3395CFA12AC66D9D25C8A6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProjectY-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCB6A703D61939F92B1883F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProjectY-ProjectYUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD556E39DBA6C64F32E07836 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProjectY/Pods-ProjectY-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProjectY/Pods-ProjectY-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProjectY/Pods-ProjectY-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5A9BA1ECEAA508BF6EE391E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProjectYTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6A64A55A2643CD8D00B34998 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -260,6 +498,7 @@
 			files = (
 				6A64A5662643CD8D00B34998 /* ViewController.swift in Sources */,
 				6A64A5622643CD8D00B34998 /* AppDelegate.swift in Sources */,
+				6A6C85BF26440FA1000C2F67 /* SecondView.swift in Sources */,
 				6A64A5642643CD8D00B34998 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,9 +672,12 @@
 		};
 		6A64A5892643CD9200B34998 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 474357455846E1AEBA26B131 /* Pods-ProjectY.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ProjectY/ProjectY.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ProjectY/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -451,9 +693,12 @@
 		};
 		6A64A58A2643CD9200B34998 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61534043DBB36AF7F0ACA773 /* Pods-ProjectY.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ProjectY/ProjectY.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ProjectY/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -469,6 +714,7 @@
 		};
 		6A64A58C2643CD9200B34998 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE2DD632A7173176D5CDC98 /* Pods-ProjectYTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +736,7 @@
 		};
 		6A64A58D2643CD9200B34998 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E3CEB1F939BCF22AB76A8F1 /* Pods-ProjectYTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +758,7 @@
 		};
 		6A64A58F2643CD9200B34998 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CCA0F6F3A839F6F1E006043 /* Pods-ProjectY-ProjectYUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +778,7 @@
 		};
 		6A64A5902643CD9200B34998 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D145DB6B73C39592747D83BF /* Pods-ProjectY-ProjectYUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

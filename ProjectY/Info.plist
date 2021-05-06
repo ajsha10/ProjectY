@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSLocationUsageDescription</key>
+	<string>Tracking required for monitoring the activity</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Tracking required for monitoring the activity</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
@@ -62,5 +66,32 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>The apps monitors the user's mobility and requires the user's location to do so</string>
+
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>If the user is mobile, a significant location change will trigger the capture of the mobility data of the user</string>
+
+    <key>NSLocationUsageDescription</key>
+    <string>The apps monitors the user's mobility and requires the user's location to do so</string>
+
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>The apps monitors the user's mobility and requires the user's location to do so</string>
+
+    <key>NSLocationTemporaryUsageDescriptionDictionary</key>
+    <dict>
+        <key>tmd.AccurateLocationPurpose</key>
+        <string>The app monitors your mobility and requires your precise location to do so</string>
+    </dict>
+
+    <key>NSMotionUsageDescription</key>
+    <string>The app collects accelerometer data to evaluate the modes of transports used by the iOS device user</string>
+
+    <key>UIBackgroundModes</key>
+    <array>
+    <string>fetch</string>
+    <string>location</string>
+    </array>
+
 </dict>
 </plist>
