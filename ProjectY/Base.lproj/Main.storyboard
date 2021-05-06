@@ -205,14 +205,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t2f-jc-BW9">
+                            <label userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t2f-jc-BW9">
                                 <rect key="frame" x="100" y="341" width="214" height="42"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
+                                <color key="highlightedColor" systemColor="opaqueSeparatorColor"/>
                             </label>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JbK-wq-4XD">
+                            <label userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JbK-wq-4XD">
                                 <rect key="frame" x="100" y="403" width="214" height="43"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -389,7 +391,10 @@
                         <outlet property="Distance" destination="kyd-02-Gf9" id="TVQ-Pt-JJ4"/>
                         <outlet property="Pace" destination="PpN-8l-2Nj" id="U9V-js-Swo"/>
                         <outlet property="Time" destination="fMi-fo-pIN" id="U7p-UW-cR5"/>
+                        <outlet property="distanceLabel" destination="kyd-02-Gf9" id="l0R-Yn-ACK"/>
                         <outlet property="mapView" destination="Iap-aK-dSc" id="Ch0-BD-a1O"/>
+                        <outlet property="paceLabel" destination="PpN-8l-2Nj" id="5DR-R3-06Y"/>
+                        <outlet property="timeLabel" destination="fMi-fo-pIN" id="VuP-N9-C7H"/>
                         <outlet property="workoutAction" destination="x3j-Dv-wwV" id="cCs-5D-a5z"/>
                     </connections>
                 </viewController>
@@ -417,7 +422,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="zoH-QV-i34"/>
+        <segue reference="4Rb-Pg-ru7"/>
         <segue reference="OrZ-Hc-3bT"/>
     </inferredMetricsTieBreakers>
     <resources>

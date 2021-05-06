@@ -47,6 +47,7 @@ class SecondView: UIViewController, CLLocationManagerDelegate {
     func saveWorkout() {
 
             workout.distance = Float(distance)
+        
             workout.duration = Int(seconds)
             workout.timestamp = NSDate()
 
@@ -139,11 +140,11 @@ class SecondView: UIViewController, CLLocationManagerDelegate {
 }
 class Workout: Object {
 
-    dynamic var timestamp = NSDate()
-    dynamic var duration = 0
-    dynamic var distance: Float = 0.0
-    dynamic var descent: Float = 0.0
-    dynamic var climb: Float = 0.0
+    @objc dynamic var timestamp = NSDate()
+    @objc dynamic var duration = 0
+    @objc dynamic var distance: Float = 0.0
+    @objc dynamic var descent: Float = 0.0
+    @objc dynamic var climb: Float = 0.0
     var locations = List<Location>()
 
     func save() -> Bool {
@@ -168,7 +169,7 @@ class Location: Object {
     @objc dynamic var latitude: Double = 0.0
 }
     
-    // MARK: - CLLocationManagerDelegate
+
     
     extension SecondView {
         
@@ -197,7 +198,7 @@ class Location: Object {
         
     }
     
-    // MARK: - MKMapViewDelegate
+ 
     extension SecondView: MKMapViewDelegate {
 
         func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
